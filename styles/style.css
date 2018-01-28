@@ -1,1 +1,108 @@
-style.css
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: rgba(155, 173, 201, .5);
+}
+
+nav ul {
+	list-style-type: none;
+	background-color: #333;
+	font-size: 15px;
+	margin: auto;
+}
+
+nav li {
+	display: inline;
+	left: auto;
+}
+
+nav li a {
+	color: white;
+}
+
+
+.me {
+	transform: rotate(90deg);
+	margin-bottom: 15px;
+}
+
+.qual {
+	position: absolute;
+	top: 400px;
+	border: solid;
+	border-width: 5px;
+	border-color: black;
+	width: 500px;
+	height: 250px;
+	right: 0px;
+	margin-top: 15px;
+	}
+
+.education {
+	position: absolute;
+	top: 150px;
+	border: solid;
+	border-width: 5px;
+	border-color: black;
+	width: 500px;
+	height: 250px;
+	right: 0px;
+}
+
+.volunteer {
+	position: absolute;
+	top: 650px;
+	border: solid;
+	border-width: 5px;
+	border-color: black;
+	width: 500px;
+	height: 250px;
+	right: 0px;
+	margin-top: 30px;
+}
+
+.aboutme {
+	text-align: center;
+	font-family: sans-serif;
+	border-bottom: 15px solid;
+	border-top: 15px solid;
+	padding: 10px;
+	margin: 250px;
+}
+
+.experience {
+	position: absolute;
+	top: 150px;
+	border: solid;
+	border-width: 5px;
+	border-color: black;
+
+}
+.title {
+	text-align: center;
+	padding: 15px;
+	border-bottom: solid;
+	border-color: black;
+	font-family: impact;
+	color: rgb(145, 102, 53);
+}
+
+.language {
+	position: absolute;
+	top: 800px;
+	border: solid;
+	border-width: 5px;
+	border-color: black;
+	height: 100px;
+	width: 500px;
+	margin-top: 50px
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: red;
+}
+
